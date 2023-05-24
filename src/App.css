@@ -11,6 +11,10 @@ scroll-behavior: smooth;
 
 }
 
+#root {
+  position:relative;
+}
+
 body{
   font-family: 'Noto Sans KR', sans-serif;
   background: #f0f4f8;
@@ -87,6 +91,12 @@ h1{
   grid-template-columns: repeat(3,1fr);
   grid-gap: 35px;
 }
+.grid2{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 35px;
+
+}
 
 p{
   color: #3c3e41;
@@ -110,6 +120,29 @@ textarea , input{
   margin-top: 20px;
 
 }
+
+.btn-shadow {
+
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: -2px 2px 5px rgba(255, 255, 255, 1),
+      3px 3px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-shadow:hover {
+  background-color: rgb(244, 185, 199);
+  box-shadow: -2px 2px 8px rgba(255, 255, 255, 1),
+      3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow:active{
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,1),
+              inset 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+
 
 @media (max-width : 768px){
 .grid{

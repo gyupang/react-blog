@@ -37,24 +37,6 @@
 
 }
 
-.features .btn-shadow {
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: -2px 2px 5px rgba(255, 255, 255, 1),
-        3px 3px 5px rgba(0, 0, 0, 0.1);
-
-}
-
-.features .btn-shadow:hover {
-    background-color: rgb(244, 185, 199);
-    box-shadow: -2px 2px 8px rgba(255, 255, 255, 1),
-        3px 3px 8px rgba(0, 0, 0, 0.2);
-}
-
-.features .btn-shadow:active {
-    box-shadow: inset -2px -2px 5px rgba(255,255,255,1),
-                inset 3px 3px 5px rgba(0,0,0,0.1);
-}
 
 .card svg{
     width: 30px;

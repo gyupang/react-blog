@@ -1,0 +1,22 @@
+import React from 'react';
+import { RiArrowRightLine } from "react-icons/ri";
+
+const Card = (props) => {
+    return (
+        <li>
+            <div className="box btn-shadow card">
+                <h2>{props.title}</h2>
+                <p className="cate">{props.category}</p>
+                <span>{props.year}</span>
+                <hr />
+                <p>
+                {props.desc}
+                </p>
+                <a href=""><RiArrowRightLine className='fe-icon' /> </a>
+
+            </div>
+        </li>
+    );
+};
+
+export default Card;

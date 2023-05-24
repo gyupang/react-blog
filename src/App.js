@@ -3,6 +3,10 @@ import './App.css';
 import Header from './component/head/Header';
 import Hero from './component/Hero/Hero';
 import Features from './component/features/Features';
+import Portfolio from './component/portfolio/Portfolio';
+import Resume from './component/resume/Resume';
+import Group from './component/group/Group';
+
 const App = () => {
   return (
     <>
@@ -11,6 +15,9 @@ const App = () => {
       <Hero />
 
       <Features/>
+      <Portfolio/>
+      <Resume/>
+      <Group/>
     </>
 
 

@@ -15,9 +15,9 @@ const Features = () => {
 
                 </div>
                 <div className="container grid">
-                  {data.map((dt,index)=>{
-                    return<Card icon={dt.icon} title={dt.title} content={dt.content}/>
-                  })}
+                    {data.map((dt, feat) => {
+                        return <Card key={feat} icon={dt.icon} title={dt.title} content={dt.content} />
+                    })}
 
 
                 </div>
