@@ -1,0 +1,26 @@
+.contact .left{
+    width: 35%;
+}
+.contact .right{
+    width: 60%;
+
+}
+
+.contact .box{
+    padding: 30px;
+}
+.contact .box img{
+    max-width: 100%;
+}
+
+.contact .details h1{
+    margin: 20px 0;
+}
+
+.contact .details p{
+    font-size: 17px;
+}
+
+.contact .button{
+    margin-top: 20px;
+}
